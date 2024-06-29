@@ -30,7 +30,7 @@ function createCard({ id, Imagen, Nombre, Precio, Descripcion }) {
         <h2 class="Title__card">${Nombre}</h2>
         <p class="Descripcion__productos">${Descripcion}</p>
         <div class="Precio">
-            <p class="precio__productos">$ ${Precio}</p>
+            <p class="precio__productos">$ ${Precio}.00</p>
             <button class="delete-button" data-id="${id}">
                 <img class="icono_limpiar" src="./assets/borrar (1).png" alt="Borrar">
             </button>  

@@ -37,6 +37,7 @@ header {
 .menu__icon {
     width: 100%;
     height: auto;
+    image-rendering: optimizeQuality;
 }
 
 .Title__menu {
@@ -70,6 +71,7 @@ section.Productos {
     text-align: center;
     font-weight: 600;
     font-size: 2.5rem;
+    text-rendering: optimizeLegibility;
 }
 
 .Cards {
@@ -94,11 +96,11 @@ section.Productos {
     justify-content: space-between;
     align-items: normal;
     gap: 3vh;
-    border: 3px solid #000;
+    border: 2.5px solid #000;
     border-radius: 25px;
     box-shadow: 0 0 0 0.1rem rgba(204, 204, 204, 0.6);
     width: 100%;
-    max-width: 24vw;
+    max-width: 23vw;
     height: auto;
     min-height: 65vh;
     background-color: rgb(93, 4, 217);
@@ -119,15 +121,24 @@ section.Productos {
     max-width: 20vw;
     height: 100%;
     max-height: 30vh;
+    min-height: 29vh;
     margin: 0 auto;
-    border: 3px solid #000;
+    border: 2.5px solid #000;
+    image-rendering: optimizeQuality;
+}
+
+.img__productos:hover {
+    border: 2.5px solid #000;
+    transform: scale(1.07);
+    cursor: pointer;
 }
 
 .Title__card {
     color: #fff;
     text-align: start;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
+    text-rendering: optimizeLegibility;
     margin: 0 1vw;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -137,6 +148,7 @@ section.Productos {
     text-align: start;
     font-size: 1rem;
     font-weight: lighter;
+    text-rendering: optimizeLegibility;
     margin: 0 1vw;
     word-wrap: break-word;
     word-spacing: normal;
@@ -156,6 +168,7 @@ section.Productos {
     text-align: start;
     font-size: 1.1rem;
     font-weight: bold;
+    text-rendering: optimizeLegibility;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -168,10 +181,12 @@ section.Productos {
 .icono_limpiar{
     width: 28px;
     height: auto;
+    image-rendering: optimizeQuality;
 }
 
 .icono_limpiar:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 /*Formulario*/
 
@@ -190,6 +205,7 @@ section.Formulario {
     font-size: 2.5rem;
     text-align: center;
     width: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 .Form_element {
@@ -321,6 +337,7 @@ footer {
 
 
 footer p {
+    text-rendering: optimizeLegibility;
     color: #fff; 
     font-size: 1.3rem;
     font-weight: lighter;
@@ -363,7 +380,7 @@ footer p {
         border-radius: 25px;
         box-shadow: 0 0 0 0.1rem rgba(204, 204, 204, 0.6);
         width: 100%;
-        max-width: 60vw;
+        max-width: 59vw;
         height: auto;
         min-height: 70vh;
         background-color: rgb(93, 4, 217);
@@ -457,7 +474,7 @@ footer p {
         border-radius: 25px;
         box-shadow: 0 0 0 0.1rem rgba(204, 204, 204, 0.6);
         width: 100%;
-        max-width: 35vw;
+        max-width: 34vw;
         height: auto;
         min-height: 75vh;
         background-color: rgb(93, 4, 217);
