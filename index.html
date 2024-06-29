@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Style-->
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Fontss-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--Icon-->
+<link rel="icon" href="./assets/compra-en-linea.png">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <!--Menu del alura Geek -->
+  <header>
+    <div class="menu__barra">
+        <img class="menu-icon" src="./assets/menu-icon.png" alt="" srcset="">
+        <h1 class="Title__menu">Alura Geek</h1>
+    </div>
+  </header>
+    <main>
+     <div class="Container">
+        <div class="Container__productos">
+            <!--Productos -->
+            <section class="Productos">
+                <h2 class="Title__Productos">Productos</h2>
+                <div class="Cards" Cards>   
+                    <!--Card-->              
+                    <!--<div class="Card">
+                        <img class="img__productos" src="./assets/pexels-inspiredimages-132464.jpg" alt="Imagen 1">
+                        <h2 class="Title__card">Producto</h2>
+                        <p class="Descripcion__productos">Lorem ipsum dolor sit amet</p>
+
+                        <div class="Precio">
+                            <p class="precio__productos">$ 100.00</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img class="icono_limpiar" src="./assets/borrar (1).png" alt="Imagen 1">
+                            </button>
+                        </div>
+                    </div>-->                                   
+                </div>
+            </section>
+        </div>
+
+        <div class="Container__formulario">
+            <section class="Formulario">
+                <h2 class="Title__formulario">Registrar Productos</h2>
+                <div class="Form_element">
+                    <form class="Form" action="" Form>
+                        <input required class="Buscar__Productos" id="id_nombre" type="text" placeholder="Nombre" minlength="3" buscar-name>
+                        <input required class="Buscar__Productos" id="id_precio" type="number" placeholder="Precio" minlength="1" maxlength="6" buscar-precio>
+                        <input required class="Buscar__Productos" id="id-imagen" type="text" placeholder="Imagen"  minlength="8" buscar-imagen>
+                        <textarea name="Descripcion" class="Buscar__Productos"  id="textarea" placeholder="Descripción" buscar-descripcion></textarea>
+                    
+                        <div class="Botones">
+                        <button class="Botones__Enviar" type="submit" submit>Enviar</button>
+                        <button class="Botones__Reiniciar" type="reset">Reiniciar</button> 
+                        </div>
+                    </form>
+                </div>
+            </section>            
+        </div>
+    </div>
+    </main>
+    </body>
+    <footer>
+        <div class="footer__AluraGeek">
+            <img class="menu-icon" src="./assets/menu-icon.png" alt="" srcset="">
+            <h1 class="Title__menu">Alura Geek</h1>
+        </div>
+        <p>Desarrollado por Fabián Hernández Alejandro.</p>
+        <p>© 2024.</p>
+    </footer>
+    <script type="module" src="./js/registrar.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "Productos": [
+    {
+      "id": "651d",
+      "Nombre": "Carrito de madera ",
+      "Precio": "149",
+      "Imagen": "https://http2.mlstatic.com/D_NQ_NP_807446-MLA46336479073_062021-V.webp",
+      "Descripcion": "Un carrito ecológico, cero plástico 100% madera para cuidar el medio ambiente. "
+    },
+    {
+      "id": "6882",
+      "Nombre": "Dino carros",
+      "Precio": "259",
+      "Imagen": "https://http2.mlstatic.com/D_NQ_NP_920098-MLC73282636328_122023-V.webp",
+      "Descripcion": "Dino carros del jurásico tardío.  "
+    },
+    {
+      "id": "dfb5",
+      "Nombre": "Nave",
+      "Precio": "546",
+      "Imagen": "https://http2.mlstatic.com/D_NQ_NP_939805-MLA69449702122_052023-V.webp",
+      "Descripcion": "muy buena"
+    },
+    {
+      "id": "f0b9",
+      "Nombre": "Trenes",
+      "Precio": "56",
+      "Imagen": "https://images-na.ssl-images-amazon.com/images/I/81c+CdobMHL.jpg",
+      "Descripcion": "Conjunto de trenes "
+    }
+  ]
+}
